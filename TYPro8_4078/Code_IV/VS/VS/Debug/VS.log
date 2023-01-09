@@ -1,0 +1,388 @@
+﻿Build started 2013/12/9 17:10:52.
+     1>Project "F:\Mits7\CAN辅助项目\CodeOS4078(201312091)\CodeOS4078\Code_IV\VS\VS\VS.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "F:\Mits7\CAN辅助项目\CodeOS4078(201312091)\CodeOS4078\Code_IV\VS\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\VS.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\COMMON_APP\CANBus\CANBusParse.cpp ..\..\..\COMMON_APP\CANBus\CANMsgBuffering.cpp ..\..\..\COMMON_APP\EthernetParse\EthernetParse.cpp ..\..\..\COMMON_APP\EthernetParse\EventsBuffering.cpp ..\..\..\COMMON_OS\Data_Manipulation\BackupBuffering.cpp ..\..\..\COMMON_OS\Data_Manipulation\BitArray.cpp ..\..\..\COMMON_OS\Data_Manipulation\CircularQueue_Lin.cpp ..\..\..\COMMON_OS\Data_Manipulation\Datatypes.cpp ..\..\..\COMMON_OS\Data_Manipulation\Lib_Mem.cpp ..\..\..\COMMON_OS\Ext_Devices\ADC16bit_AD7656.cpp ..\..\..\COMMON_OS\Ext_Devices\ADC16bit_CS5560.cpp ..\..\..\COMMON_OS\Ext_Devices\ADC24bit_AD7190.cpp ..\..\..\COMMON_OS\Ext_Devices\ADC24bit_CS5560.cpp ..\..\..\COMMON_OS\Ext_Devices\ADC32bit_LTC2449.cpp ..\..\..\COMMON_OS\Ext_Devices\ADC32bit_LTC2498.cpp ..\..\..\COMMON_OS\Ext_Devices\ControlPin.cpp ..\..\..\COMMON_OS\Ext_Devices\CPLD.cpp ..\..\..\COMMON_OS\Ext_Devices\Ctrl_Arbus.cpp ..\..\..\COMMON_OS\Ext_Devices\DAC16bit_AD5360.cpp ..\..\..\COMMON_OS\Ext_Devices\DAC16bit_AD5754.cpp ..\..\..\COMMON_OS\Ext_Devices\Device_MoreCase.cpp ..\..\..\COMMON_OS\Ext_Devices\EEPROM_24LC128.cpp ..\..\..\COMMON_OS\Ext_Devices\FM25L256.cpp ..\..\..\COMMON_OS\LPC4078CORE\CAN.cpp ..\..\..\COMMON_OS\LPC4078CORE\EMAC_LPC177x_8x.cpp ..\..\..\COMMON_OS\LPC4078CORE\EXTINT.cpp ..\..\..\COMMON_OS\LPC4078CORE\GPIO.cpp ..\..\..\COMMON_OS\LPC4078CORE\I2C.cpp ..\..\..\COMMON_OS\LPC4078CORE\IRQ.cpp ..\..\..\COMMON_OS\LPC4078CORE\RTC.cpp ..\..\..\COMMON_OS\LPC4078CORE\SDRAM.cpp ..\..\..\COMMON_OS\LPC4078CORE\SSPI.cpp ..\..\..\COMMON_OS\LPC4078CORE\TIMERS.cpp ..\..\..\COMMON_OS\LPC4078CORE\UART.cpp ..\..\..\COMMON_OS\LPC4078CORE\WDT.cpp ..\..\..\COMMON_OS\Task_Dispatcher\OS_ServeProcess.cpp "..\..\..\COMMON_OS\TCP-NET\EMAC_LPC177x_8x.cpp" "..\..\..\COMMON_OS\TCP-NET\TcpTxRx.cpp" ..\..\Entry\main.cpp ..\..\HWD\IBT\IBT_ADC5DAC.cpp ..\..\HWD\IBT\IBT_Base.cpp ..\..\HWD\IBT\IBT_Baseold.cpp ..\..\HWD\IBT\IBT_GPIO.cpp ..\..\HWD\IBT\IBT_SampleManage.cpp ..\..\IV_Tasks\CConfig.cpp ..\..\IV_Tasks\CheckLimit_4.cpp ..\..\IV_Tasks\CheckLimit_8.cpp ..\..\IV_Tasks\DataManage.cpp ..\..\IV_Tasks\IR.cpp ..\..\IV_Tasks\IVSDL.cpp ..\..\IV_Tasks\LogLimit.cpp ..\..\IV_Tasks\Metavariable.cpp ..\..\IV_Tasks\OS_LogicProcess.cpp ..\..\IV_Tasks\PID.cpp ..\..\IV_Tasks\SafeCheck.cpp ..\..\IV_Tasks\SampleProcess.cpp ..\..\IV_Tasks\ScheduleManage.cpp ..\..\IV_Tasks\StepManage.cpp ..\..\IV_Tasks\ThirdParty.cpp
+         ThirdParty.cpp
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(192): error C3646: '__swi' : unknown override specifier
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(192): error C2072: 'tsk_lock' : initialization of a function
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(192): error C2440: 'initializing' : cannot convert from 'int' to 'void (void)'
+                 There are no conversions to function types, although there are conversions to references or pointers to functions
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(197): error C3646: '__swi' : unknown override specifier
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(197): error C2072: '_alloc_box' : initialization of a function
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(197): error C2440: 'initializing' : cannot convert from 'int' to 'void *(void *)'
+                 There are no conversions to function types, although there are conversions to references or pointers to functions
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(199): error C3646: '__swi' : unknown override specifier
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(199): error C2072: '_free_box' : initialization of a function
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(199): error C2440: 'initializing' : cannot convert from 'int' to 'int (void *,void *)'
+                 There are no conversions to function types, although there are conversions to references or pointers to functions
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(548): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(549): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(562): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\net_config.h(603): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\net_config.h(603): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\canbus\canmsgbuffering.h(25): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\canbus\canmsgbuffering.h(33): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C2059: syntax error : 'constant'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C2144: syntax error : 'int' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): warning C4183: '__align': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C2146: syntax error : missing ';' before identifier 'm_btPackDataBuffer'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(180): error C2146: syntax error : missing ';' before identifier 'Pack_Tx_Buff_1500'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(180): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(180): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(180): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(180): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(192): error C2061: syntax error : identifier 'uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C2059: syntax error : 'constant'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C2144: syntax error : 'int' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C2535: 'int EthernetParse::__align(void)' : member function already defined or declared
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::__align'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): warning C4183: '__align': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C2146: syntax error : missing ';' before identifier 'm_CmdRxBuffer'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C2059: syntax error : 'constant'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C2144: syntax error : 'int' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C2535: 'int EthernetParse::__align(void)' : member function already defined or declared
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::__align'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): warning C4183: '__align': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C2146: syntax error : missing ';' before identifier 'm_CmdTxBuffer_SynchroChannel'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C2059: syntax error : 'constant'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C2144: syntax error : 'int' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C2535: 'int EthernetParse::__align(void)' : member function already defined or declared
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::__align'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): warning C4183: '__align': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C2146: syntax error : missing ';' before identifier 'm_CmdTxBuffer_Async_Temp'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(209): error C2143: syntax error : missing ';' before '*'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(209): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(209): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(209): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(209): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(210): error C2143: syntax error : missing ';' before '*'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(210): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(210): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(210): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(210): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(222): error C2146: syntax error : missing ';' before identifier 'm_btPackDataBuffer_IsUseFlag'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(222): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(222): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(222): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(222): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(226): error C2143: syntax error : missing ';' before '*'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(226): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(226): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(226): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(226): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(229): error C2146: syntax error : missing ';' before identifier 'm_ucFull_Count'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(229): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(229): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(229): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(229): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(260): error C2061: syntax error : identifier 'uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(298): error C2061: syntax error : identifier 'uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): error C2146: syntax error : missing ';' before identifier 'AddCheckSum'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): warning C4183: 'AddCheckSum': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): error C2146: syntax error : missing ';' before identifier 'IsCheckSumOK'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): warning C4183: 'IsCheckSumOK': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1440): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1440): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1440): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1452): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1452): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1452): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1465): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1465): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1465): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1481): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1481): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1481): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1493): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1493): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1493): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1505): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1505): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1505): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1520): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1520): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1520): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1535): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1535): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1535): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1555): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1555): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1555): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1577): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1577): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1577): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1605): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1605): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1605): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1623): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1623): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1623): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1625): error C3861: '__DSB': identifier not found
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1630): error C3861: '__DSB': identifier not found
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1662): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1662): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1662): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1702): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1702): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1702): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1721): error C2146: syntax error : missing ';' before identifier 'int32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1721): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1721): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1740): error C2146: syntax error : missing ';' before identifier 'int32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1740): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1740): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+         StepManage.cpp
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(192): error C3646: '__swi' : unknown override specifier
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(192): error C2072: 'tsk_lock' : initialization of a function
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(192): error C2440: 'initializing' : cannot convert from 'int' to 'void (void)'
+                 There are no conversions to function types, although there are conversions to references or pointers to functions
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(197): error C3646: '__swi' : unknown override specifier
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(197): error C2072: '_alloc_box' : initialization of a function
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(197): error C2440: 'initializing' : cannot convert from 'int' to 'void *(void *)'
+                 There are no conversions to function types, although there are conversions to references or pointers to functions
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(199): error C3646: '__swi' : unknown override specifier
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(199): error C2072: '_free_box' : initialization of a function
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(199): error C2440: 'initializing' : cannot convert from 'int' to 'int (void *,void *)'
+                 There are no conversions to function types, although there are conversions to references or pointers to functions
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(548): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(549): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\rtl.h(562): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\net_config.h(603): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\tcp-net\net_config.h(603): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\canbus\canmsgbuffering.h(25): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\canbus\canmsgbuffering.h(33): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C2059: syntax error : 'constant'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C2144: syntax error : 'int' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): warning C4183: '__align': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C2146: syntax error : missing ';' before identifier 'm_btPackDataBuffer'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(180): error C2146: syntax error : missing ';' before identifier 'Pack_Tx_Buff_1500'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(180): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(180): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(180): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(180): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(192): error C2061: syntax error : identifier 'uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C2059: syntax error : 'constant'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C2144: syntax error : 'int' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C2535: 'int EthernetParse::__align(void)' : member function already defined or declared
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::__align'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): warning C4183: '__align': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C2146: syntax error : missing ';' before identifier 'm_CmdRxBuffer'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C2059: syntax error : 'constant'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C2144: syntax error : 'int' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C2535: 'int EthernetParse::__align(void)' : member function already defined or declared
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::__align'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): warning C4183: '__align': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C2146: syntax error : missing ';' before identifier 'm_CmdTxBuffer_SynchroChannel'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(206): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C2059: syntax error : 'constant'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C2144: syntax error : 'int' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C2535: 'int EthernetParse::__align(void)' : member function already defined or declared
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::__align'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): warning C4183: '__align': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C2146: syntax error : missing ';' before identifier 'm_CmdTxBuffer_Async_Temp'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(209): error C2143: syntax error : missing ';' before '*'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(209): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(209): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(209): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(209): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(210): error C2143: syntax error : missing ';' before '*'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(210): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(210): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(210): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(210): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(222): error C2146: syntax error : missing ';' before identifier 'm_btPackDataBuffer_IsUseFlag'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(222): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(222): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(222): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(222): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(226): error C2143: syntax error : missing ';' before '*'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(226): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(226): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(226): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(226): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(229): error C2146: syntax error : missing ';' before identifier 'm_ucFull_Count'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(229): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(229): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(229): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(229): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(260): error C2061: syntax error : identifier 'uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(298): error C2061: syntax error : identifier 'uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): error C2146: syntax error : missing ';' before identifier 'AddCheckSum'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(303): warning C4183: 'AddCheckSum': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): error C2146: syntax error : missing ';' before identifier 'IsCheckSumOK'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): error C2086: 'int EthernetParse::uint8' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(178) : see declaration of 'EthernetParse::uint8'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_app\ethernetparse\ethernetparse.h(304): warning C4183: 'IsCheckSumOK': missing return type; assumed to be a member function returning 'int'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1440): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1440): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1440): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1452): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1452): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1452): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1465): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1465): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1465): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1481): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1481): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1481): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1493): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1493): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1493): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1505): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1505): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1505): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1520): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1520): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1520): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1535): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1535): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1535): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1555): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1555): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1555): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1577): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1577): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1577): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1605): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1605): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1605): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1623): error C2144: syntax error : 'void' should be preceded by ';'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1623): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1623): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1625): error C3861: '__DSB': identifier not found
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1630): error C3861: '__DSB': identifier not found
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1662): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1662): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1662): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1702): error C2146: syntax error : missing ';' before identifier 'uint32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1702): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1702): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1721): error C2146: syntax error : missing ';' before identifier 'int32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1721): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1721): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1740): error C2146: syntax error : missing ';' before identifier 'int32_t'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1740): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1740): error C2086: 'int __STATIC_INLINE' : redefinition
+                 f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\common_os\lpc4078core\core_cm4.h(1420) : see declaration of '__STATIC_INLINE'
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\code_iv\iv_tasks\stepmanage.cpp(28): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\code_iv\iv_tasks\stepmanage.cpp(30): warning C4068: unknown pragma
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\code_iv\iv_tasks\stepmanage.cpp(381): warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\code_iv\iv_tasks\stepmanage.cpp(465): warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\code_iv\iv_tasks\stepmanage.cpp(496): warning C4244: '=' : conversion from 'float' to 'unsigned short', possible loss of data
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\code_iv\iv_tasks\stepmanage.cpp(551): warning C4244: 'argument' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\code_iv\iv_tasks\stepmanage.cpp(1040): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         ScheduleManage.cpp
+     1>f:\mits7\can辅助项目\codeos4078(201312091)\codeos4078\code_iv\iv_tasks\schedulemanage.cpp(11): fatal error C1083: Cannot open include file: 'includes.h': No such file or directory
+         SampleProcess.cpp

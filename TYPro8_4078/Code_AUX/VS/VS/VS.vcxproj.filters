@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="COMMON_APP">
+      <UniqueIdentifier>{3fa4099e-c917-4fc9-87fa-a8b327c5e98a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COMMON_APP\EthernetParse">
+      <UniqueIdentifier>{23d71e63-c944-4a9b-9440-86c75761f525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COMMON_OS">
+      <UniqueIdentifier>{779dcad0-de36-4c9b-84fe-9bfda7bb7619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COMMON_OS\Data_Manipulation">
+      <UniqueIdentifier>{176fd4ef-307b-41c7-b111-986fe9613020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COMMON_OS\Ext_Devices">
+      <UniqueIdentifier>{a7fc21a6-b5e0-442c-9ad7-5267726984f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COMMON_OS\LPC4078CORE">
+      <UniqueIdentifier>{ea4694de-a781-436f-8016-925b9bb00ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COMMON_OS\Task_Dispatcher">
+      <UniqueIdentifier>{77b66e50-1f23-4fdb-8e94-d241780bac1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COMMON_OS\TCP-NET">
+      <UniqueIdentifier>{47c49095-cc23-4d45-8801-6910ffe13bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COMMON_APP\CANBus">
+      <UniqueIdentifier>{6cb35fc9-6df1-4908-b990-bcdbb42c4aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COMMON_OS\Protocols">
+      <UniqueIdentifier>{875a66d8-6d3e-46e7-94fa-f26a50ad8fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Code_AUX\Entry">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Code_AUX\AUX_Tasks">
+      <UniqueIdentifier>{0ee09f4e-0b2b-4800-8a0f-90a87c4ca345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReadMe">
+      <UniqueIdentifier>{dcd3616e-8dec-4846-aed9-0c4da3813df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD">
+      <UniqueIdentifier>{b6b31f2a-48e0-4356-92ba-01bb65042da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\Aux_2ndV_HIM_511898">
+      <UniqueIdentifier>{1ab4a312-222c-4b79-8db6-36a46e7674e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\AUX_Channel">
+      <UniqueIdentifier>{0577562f-46e8-4cdf-b232-e273a5f81d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\Aux_ExtCharge_601618">
+      <UniqueIdentifier>{3b70e43d-3ff1-4687-80f1-5b5021855671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\Aux_Monitor_601618">
+      <UniqueIdentifier>{6ac0b8a6-870e-4c79-be6e-abed18d37a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\Aux_MultiFunc_514194">
+      <UniqueIdentifier>{67d92742-01b2-418b-9649-ef8edcde2786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\Aux_P_TC_509138">
+      <UniqueIdentifier>{e0e5cd0f-c3bb-4015-9113-7dca7a73e55d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\Aux_Redun_2ndV_TC_601082">
+      <UniqueIdentifier>{a6db44ac-0c8e-4826-92e5-716e10f692ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\AUX_THChamber">
+      <UniqueIdentifier>{f780fa25-2cda-47a6-8a03-38bc9f6b1797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\Aux_TR_PT100_601314">
+      <UniqueIdentifier>{c4a73908-4bf0-492f-b4d1-e028177aaea1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\Aux_2ndV_LC_601310">
+      <UniqueIdentifier>{942afe0b-98ae-430c-81cd-31cea9dbb332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\Aux_2ndV_TR_509146">
+      <UniqueIdentifier>{b33bef92-ecda-454b-88de-250789742eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code_AUX\HWD\BatteryCells">
+      <UniqueIdentifier>{82ddf10f-12f9-48ec-a029-f1245bd13ee8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\COMMON_APP\CANBus\CANBusParse.cpp">
+      <Filter>COMMON_APP\CANBus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_APP\EthernetParse\EthernetParse.cpp">
+      <Filter>COMMON_APP\EthernetParse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_APP\EthernetParse\EventsBuffering.cpp">
+      <Filter>COMMON_APP\EthernetParse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Data_Manipulation\BackupBuffering.cpp">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Data_Manipulation\BitArray.cpp">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Data_Manipulation\CircularQueue_Lin.cpp">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Data_Manipulation\Datatypes.cpp">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Data_Manipulation\Lib_Mem.cpp">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\ADC16bit_AD7656.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\ADC16bit_CS5560.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\ADC24bit_AD7190.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\ADC24bit_CS5560.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\ADC32bit_LTC2449.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\ADC32bit_LTC2498.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\ControlPin.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\CPLD.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\Ctrl_Arbus.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\DAC16bit_AD5360.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\DAC16bit_AD5754.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\EEPROM_24LC128.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\FM25L256.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\CAN.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\EMAC_LPC177x_8x.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\EXTINT.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\GPIO.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\I2C.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\IRQ.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\RTC.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\SDRAM.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\SSPI.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\system_LPC407x_8x_177x_8x.c">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\TIMERS.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\UART.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\LPC4078CORE\WDT.cpp">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\TCP-NET\EMAC_LPC177x_8x.c">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\TCP-NET\EMAC_LPC177x_8x.cpp">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\TCP-NET\LPC24_EMAC.c">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\TCP-NET\Net_Config.c">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\TCP-NET\Net_lib.c">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\TCP-NET\TcpTxRx.cpp">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Task_Dispatcher\OS_ServeProcess.cpp">
+      <Filter>COMMON_OS\Task_Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Entry\main.cpp">
+      <Filter>Code_AUX\Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\Aux_SafeCheck.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\Aux_ThirdParty.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AuxCConfig.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AuxCheckLimit_8.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AuxCheckLimit_4.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AUXSampleProcess.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AuxSDL.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AUXDatamanager.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_APP\CANBus\CANMsgBuffering.cpp">
+      <Filter>COMMON_APP\CANBus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ReadMe\Ver.cpp">
+      <Filter>ReadMe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\BSP.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\COMMON_OS\Ext_Devices\LEDFunc.cpp">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\Aux_RedundantSample.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AuxConfigRSN.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AuxMetavariable.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AuxReadDI.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AuxRedundantSafetyCheck.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AuxSample_2ndV_LC.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AUXSampleTask.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AUX_Tasks\AuxWriteDO.cpp">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_2ndV_HIM_511898\Aux_2ndV_HIM_511898_Base.cpp">
+      <Filter>Code_AUX\HWD\Aux_2ndV_HIM_511898</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_2ndV_LC_601310\Aux_2ndV_LC_601310_Base.cpp">
+      <Filter>Code_AUX\HWD\Aux_2ndV_LC_601310</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_2ndV_LC_601310\HighMode2ndV_ADC5DAC.cpp">
+      <Filter>Code_AUX\HWD\Aux_2ndV_LC_601310</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_2ndV_LC_601310\HighMode2ndV_Base.cpp">
+      <Filter>Code_AUX\HWD\Aux_2ndV_LC_601310</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_2ndV_LC_601310\HighMode2ndV_GPIO.cpp">
+      <Filter>Code_AUX\HWD\Aux_2ndV_LC_601310</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_2ndV_LC_601310\HighMode2ndV_SampleManage.cpp">
+      <Filter>Code_AUX\HWD\Aux_2ndV_LC_601310</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_2ndV_TR_509146\Aux_2ndV_TR_509146_Base.cpp">
+      <Filter>Code_AUX\HWD\Aux_2ndV_TR_509146</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_Channel\AUX_ADC5DAC.cpp">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_Channel\AUX_Base.cpp">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_Channel\Aux_DIDO_Base.cpp">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_Channel\Aux_DIDO_SampleManage.cpp">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_Channel\AUX_GPIO.cpp">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_Channel\AUX_SampleManage.cpp">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_ExtCharge_601618\Aux_ExtCharge_601618_Base.cpp">
+      <Filter>Code_AUX\HWD\Aux_ExtCharge_601618</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_Monitor_601618\Aux_Monitor_601618_Base.cpp">
+      <Filter>Code_AUX\HWD\Aux_Monitor_601618</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_MultiFunc_514194\Aux_MultiFunc_514194_Base.cpp">
+      <Filter>Code_AUX\HWD\Aux_MultiFunc_514194</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_P_TC_509138\Aux_P_TC_509138_Base.cpp">
+      <Filter>Code_AUX\HWD\Aux_P_TC_509138</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_Redun_2ndV_TC_601082\Aux_Redun_2ndV_TC_601082_Base.cpp">
+      <Filter>Code_AUX\HWD\Aux_Redun_2ndV_TC_601082</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\MTCI_CTRL.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\MTCI_Datatypes.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TC_ESPEC_SCP220.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TC_EUROTHERM_2204E.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TC_EUROTHERM_3216.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TC_FUTURE_FDCP91.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TC_KSI_THS2005.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TC_SAMWONTECH_TEMP880.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TC_SAMWONTECH_TEMP2500.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TC_TFS_PC200.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TC_THERMOTRON_8200.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TC_WATLOW_F4.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TH_CLCD_9700.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TH_CSZ_EZT570I.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TH_HARDING_TPC7062K.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TH_SAMWONTECH_TEMI2500.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TH_SIEMENS_S7_226CN.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\AUX_THChamber\TH_VOETSCH.cpp">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\Aux_TR_PT100_601314\Aux_TR_PT100_601314_Base.cpp">
+      <Filter>Code_AUX\HWD\Aux_TR_PT100_601314</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\BatteryCells\BatteryCells_ADC5DAC.cpp">
+      <Filter>Code_AUX\HWD\BatteryCells</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\BatteryCells\BatteryCells_Base.cpp">
+      <Filter>Code_AUX\HWD\BatteryCells</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\BatteryCells\BatteryCells_GPIO.cpp">
+      <Filter>Code_AUX\HWD\BatteryCells</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\HWD\BatteryCells\BatteryCells_SampleManage.cpp">
+      <Filter>Code_AUX\HWD\BatteryCells</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\COMMON_APP\CANBus\CANBusParse.h">
+      <Filter>COMMON_APP\CANBus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_APP\CANBus\CANMsgBuffering.h">
+      <Filter>COMMON_APP\CANBus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_APP\EthernetParse\EthernetParse.h">
+      <Filter>COMMON_APP\EthernetParse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_APP\EthernetParse\EventsBuffering.h">
+      <Filter>COMMON_APP\EthernetParse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Data_Manipulation\BackupBuffering.h">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Data_Manipulation\BitArray.h">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Data_Manipulation\CircularQueue.h">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Data_Manipulation\CircularQueue_Lin.h">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Data_Manipulation\Datatypes.h">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Data_Manipulation\Lib_Mem.h">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Data_Manipulation\Time_Consum.h">
+      <Filter>COMMON_OS\Data_Manipulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\ADC16bit_AD7656.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\ADC16bit_CS5560.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\ADC24bit_AD7190.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\ADC24bit_CS5560.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\ADC32bit_LTC2449.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\ADC32bit_LTC2498.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\ControlPin.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\CPLD.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\Ctrl_Arbus.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\DAC16bit_AD5360.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\DAC16bit_AD5754.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\EEPROM_24LC128.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\FM25L256.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\Arbin_BIT_REG.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\Arbin_LPC4078.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\CAN.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\core_cm4.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\core_cm4_simd.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\core_cmFunc.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\core_cmInstr.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\EMAC_LPC177x_8x.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\EXTINT.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\GPIO.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\I2C.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\IRQ.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\LPC407x_8x_177x_8x.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\RTC.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\SDRAM.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\SSPI.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\system_LPC407x_8x_177x_8x.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\TIMERS.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\UART.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\LPC4078CORE\WDT.h">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\TCP-NET\EMAC_LPC177x_8x.h">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\TCP-NET\LPC24_EMAC.h">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\TCP-NET\net_config.h">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\TCP-NET\RTL.h">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\TCP-NET\TcpTxRx.h">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Protocols\CAN_Hwf.h">
+      <Filter>COMMON_OS\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Protocols\SF_Hwf.h">
+      <Filter>COMMON_OS\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Task_Dispatcher\OS_ServeProcess.h">
+      <Filter>COMMON_OS\Task_Dispatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Entry\G_DF.h">
+      <Filter>Code_AUX\Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Entry\includes.h">
+      <Filter>Code_AUX\Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Entry\main.h">
+      <Filter>Code_AUX\Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\Aux_SafeCheck.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\Aux_ThirdParty.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AuxCConfig.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AUXCheckLimit_4.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AuxCheckLimit_8.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AUXDatamanager.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AUXSampleProcess.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AuxSDL.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\BSP.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\COMMON_OS\Ext_Devices\LEDFunc.h">
+      <Filter>COMMON_OS\Ext_Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\Aux_RedundantSafetyCheck.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\Aux_RedundantSample.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AuxConfigRSN.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AUXDataDefine.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AuxMetavariable.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AuxReadDI.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AuxSample_2ndV_LC.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AUXSampleTask.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\AuxWriteDO.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AUX_Tasks\ReadDI.h">
+      <Filter>Code_AUX\AUX_Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_2ndV_HIM_511898\Aux_2ndV_HIM_511898_Base.h">
+      <Filter>Code_AUX\HWD\Aux_2ndV_HIM_511898</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_2ndV_LC_601310\Aux_2ndV_LC_601310_Base.h">
+      <Filter>Code_AUX\HWD\Aux_2ndV_LC_601310</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_2ndV_LC_601310\HighMode2ndV_ADC5DAC.h">
+      <Filter>Code_AUX\HWD\Aux_2ndV_LC_601310</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_2ndV_LC_601310\HighMode2ndV_Base.h">
+      <Filter>Code_AUX\HWD\Aux_2ndV_LC_601310</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_2ndV_LC_601310\HighMode2ndV_GPIO.h">
+      <Filter>Code_AUX\HWD\Aux_2ndV_LC_601310</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_2ndV_LC_601310\HighMode2ndV_SampleManage.h">
+      <Filter>Code_AUX\HWD\Aux_2ndV_LC_601310</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_2ndV_TR_509146\Aux_2ndV_TR_509146_Base.h">
+      <Filter>Code_AUX\HWD\Aux_2ndV_TR_509146</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_Channel\AUX_ADC5DAC.h">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_Channel\AUX_Base.h">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_Channel\Aux_DIDO_Base.h">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_Channel\Aux_DIDO_SampleManage.h">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_Channel\AUX_GPIO.h">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_Channel\AUX_SampleManage.h">
+      <Filter>Code_AUX\HWD\AUX_Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_ExtCharge_601618\Aux_ExtCharge_601618_Base.h">
+      <Filter>Code_AUX\HWD\Aux_ExtCharge_601618</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_Monitor_601618\Aux_Monitor_601618_Base.h">
+      <Filter>Code_AUX\HWD\Aux_Monitor_601618</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_MultiFunc_514194\Aux_MultiFunc_514194_Base.h">
+      <Filter>Code_AUX\HWD\Aux_MultiFunc_514194</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_P_TC_509138\Aux_P_TC_509138_Base.h">
+      <Filter>Code_AUX\HWD\Aux_P_TC_509138</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_Redun_2ndV_TC_601082\Aux_Redun_2ndV_TC_601082_Base.h">
+      <Filter>Code_AUX\HWD\Aux_Redun_2ndV_TC_601082</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\MTCI_CTRL.H">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\MTCI_datatypes.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TC_ESPEC_SCP220.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TC_EUROTHERM_2204E.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TC_EUROTHERM_3216.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TC_FUTURE_FDCP91.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TC_KSI_THS2005.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TC_SAMWONTECH_TEMP880.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TC_SAMWONTECH_TEMP2500.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TC_TFS_PC200.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TC_THERMOTRON_8200.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TC_WATLOW_F4.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TH_CLCD_9700.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TH_CSZ_EZT570I.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TH_HARDING_TPC7062K.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TH_SAMWONTECH_TEMI2500.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TH_SIEMENS_S7_226CN.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\AUX_THChamber\TH_VOETSCH.h">
+      <Filter>Code_AUX\HWD\AUX_THChamber</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\Aux_TR_PT100_601314\Aux_TR_PT100_601314_Base.h">
+      <Filter>Code_AUX\HWD\Aux_TR_PT100_601314</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\BatteryCells\BatteryCells_ADC5DAC.h">
+      <Filter>Code_AUX\HWD\BatteryCells</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\BatteryCells\BatteryCells_Base.h">
+      <Filter>Code_AUX\HWD\BatteryCells</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\BatteryCells\BatteryCells_GPIO.h">
+      <Filter>Code_AUX\HWD\BatteryCells</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\HWD\BatteryCells\BatteryCells_SampleManage.h">
+      <Filter>Code_AUX\HWD\BatteryCells</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\COMMON_OS\LPC4078CORE\OSProject.sct">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </None>
+    <None Include="..\..\..\COMMON_OS\LPC4078CORE\startup_LPC407x_8x_177x_8x.s">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </None>
+    <None Include="..\..\..\ReadMe\readme.txt">
+      <Filter>ReadMe</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\COMMON_OS\LPC4078CORE\TCP_CM3.lib">
+      <Filter>COMMON_OS\LPC4078CORE</Filter>
+    </Library>
+    <Library Include="..\..\..\COMMON_OS\TCP-NET\TCP_ARM_L.lib">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </Library>
+    <Library Include="..\..\..\COMMON_OS\TCP-NET\TCP_CM3.lib">
+      <Filter>COMMON_OS\TCP-NET</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
