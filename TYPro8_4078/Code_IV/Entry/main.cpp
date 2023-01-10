@@ -410,7 +410,7 @@ void Software_Init(void)
 
 int main(void)
 {
-		//第一次修改
+		//第二次修改
     OS_ServeProcess::Init_Device_Firmware();      //初始化片内外设
 
     //外设及软件初始化
